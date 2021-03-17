@@ -1,1 +1,1 @@
-export { BreadcrumbContainer, BreadcrumbList, BreadcrumbListItem, BreadcrumbCurrent, BreadcrumbLink } from './styles';
+export { Breadcrumb } from './Breadcrumb';
