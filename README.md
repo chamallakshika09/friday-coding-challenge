@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Frontend Developer Candidate Assignment - Friday
+
+This web application allows a user to browse their car from a list of registered cars. Relevant data will be provided by an API.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
