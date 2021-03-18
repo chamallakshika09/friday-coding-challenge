@@ -1,6 +1,6 @@
 import { ChangeEvent, FC, useMemo, useState } from 'react';
 import { getUniqueValues, Vehicle } from '../../utils';
-import { Filter } from '../Filter';
+import { Filter } from '../filter';
 import { VehicleCardList } from '../vehicle-card-list';
 import { FilterContainer, OuterContainer } from './styles';
 
