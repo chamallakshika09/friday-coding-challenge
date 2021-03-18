@@ -11,8 +11,6 @@ interface VehicleCardProps {
 export const VehicleCard: FC<VehicleCardProps> = ({ vehicle }) => {
   return (
     <Card>
-      <CardText fontSize="12px">{`Make: ${vehicle.make}`}</CardText>
-      <CardText fontSize="12px">{`Model: ${vehicle.model}`}</CardText>
       <CardText fontSize="12px">{`Body Type: ${vehicle.bodyType}`}</CardText>
       <CardText fontSize="12px">{`Fuel Type: ${vehicle.fuelType}`}</CardText>
       <CardText fontSize="12px">{`Engine Capacity: ${vehicle.engineCapacity}`}</CardText>

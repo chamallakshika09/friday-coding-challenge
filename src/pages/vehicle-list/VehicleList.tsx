@@ -5,7 +5,7 @@ import { Container } from '../../components/container';
 import { ErrorDisplay } from '../../components/error-display';
 import { Spinner } from '../../components/spinner';
 import { Text } from '../../components/text';
-import { VehicleCardList } from '../../components/vehicle-card-list';
+import { VehicleSearch } from '../../components/vehicle-search';
 import { useDataFetch } from '../../hooks';
 import { Vehicle } from '../../utils';
 
@@ -29,7 +29,7 @@ const VehicleList: FC = () => {
     if (error) {
       return <ErrorDisplay fetchData={fetchData} />;
     } else if (data.length) {
-      return <VehicleCardList data={data} />;
+      return <VehicleSearch data={data} />;
     } else {
       return <Text fontSize="16px">No vehicles available on {model}</Text>;
     }
